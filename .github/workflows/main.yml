@@ -46,7 +46,7 @@ jobs:
         asset_name: release.tgz
         asset_content_type: application/x-tgz
 
-    # 部署应用到服务器
+    # 部署到服务器
     - name: Deploy
       uses: appleboy/ssh-action@master
       with:
